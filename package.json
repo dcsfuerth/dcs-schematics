@@ -1,0 +1,25 @@
+{
+  "name": "@dcs/schematics",
+  "version": "1.0.0",
+  "description": "Angular schematics used at DCS",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "test": "npm run build && jasmine src/**/*_spec.js"
+  },
+  "keywords": [
+    "schematics"
+  ],
+  "author": "",
+  "license": "MIT",
+  "schematics": "./src/collection.json",
+  "dependencies": {
+    "@angular-devkit/core": "^0.6.8",
+    "@angular-devkit/schematics": "^0.6.8"
+  },
+  "devDependencies": {
+    "@types/jasmine": "^2.8.8",
+    "@types/node": "^10.3.4",
+    "jasmine": "^3.1.0",
+    "typescript": "^2.9.2"
+  }
+}

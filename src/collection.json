@@ -1,0 +1,10 @@
+{
+  "$schema": "../node_modules/@angular-devkit/schematics/collection-schema.json",
+  "schematics": {
+    "crud-reducer": {
+      "aliases": ["c"],
+      "description": "Generate a CRUD reducer.",
+      "factory": "./crud-reducer/index#crudReducer"
+    }
+  }
+}
