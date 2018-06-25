@@ -4,3 +4,9 @@
 # but keep the .ts templates in files folders
 !**/files/**/*.ts
 !**/files/*.ts
+
+# never trust an ng code generator to do the job right
+.editorconfig
+.git
+.prettierrc
+tsconfig.json
