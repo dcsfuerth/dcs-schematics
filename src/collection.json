@@ -5,6 +5,11 @@
       "aliases": ["c"],
       "description": "Generate a CRUD reducer.",
       "factory": "./crud-reducer/index#crudReducer"
+    },
+    "read-reducer": {
+      "aliases": ["cr"],
+      "description": "Generate a read only (fetch) reducer.",
+      "factory": "./read-reducer/index#readReducer"
     }
   }
 }

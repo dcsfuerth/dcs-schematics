@@ -1,9 +1,10 @@
 {
   "name": "@dcs/schematics",
-  "version": "1.1.2",
+  "version": "1.2.0",
   "description": "Angular schematics used at DCS",
   "scripts": {
     "build": "tsc -p tsconfig.json",
+    "watch": "tsc -p tsconfig.json -w",
     "test": "npm run build && jasmine src/**/*_spec.js"
   },
   "keywords": [
