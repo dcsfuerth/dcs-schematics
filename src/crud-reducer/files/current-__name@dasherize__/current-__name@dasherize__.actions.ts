@@ -3,7 +3,6 @@ import { current<%= classify(name) %>Manager } from './current-<%= dasherize(nam
 import { <%= classify(name) %> } from '../models/<%= dasherize(name) %>.class';
 import {
   ApiGetRequest,
-  generateAsyncActionNames,
   ApiDeleteRequest,
   ApiPostRequest,
   ApiPutRequest,

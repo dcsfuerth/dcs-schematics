@@ -4,7 +4,6 @@ import { current<%= classify(name) %>Manager } from '../current-<%= dasherize(na
 import { I<%= classify(name) %>, <%= classify(name) %> } from '../models/<%= dasherize(name) %>.class';
 import {
   crudCollectionManagerFactory,
-  generateNormalizedState,
   INormalizedCollectionState,
   generateNormalizedCollectionState,
 } from '@dcs/ngx-tools';

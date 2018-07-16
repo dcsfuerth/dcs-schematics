@@ -1,5 +1,5 @@
 import { ApiGetRequest } from '@dcs/ngx-tools';
-import { <%= camelize(name) %>sManager } from './<%= dasherize(name) %>s.manager';
+import { <%= camelize(name) %>sManager } from './<%= dasherize(name) %>.manager';
 
 export class Fetch<%= classify(name) %>s extends ApiGetRequest {
   constructor() {
