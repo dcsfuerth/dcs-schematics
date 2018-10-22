@@ -10,6 +10,10 @@
       "aliases": ["cr"],
       "description": "Generate a read only (fetch) reducer.",
       "factory": "./read-reducer/index#readReducer"
+    },
+    "read-reducer-simple": {
+      "description": "Generate a read only (fetch) reducer wihtout normalizr support.",
+      "factory": "./read-reducer-simple/index#readReducerSimple"
     }
   }
 }
