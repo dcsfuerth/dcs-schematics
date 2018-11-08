@@ -14,6 +14,10 @@
     "read-reducer-simple": {
       "description": "Generate a read only (fetch) reducer wihtout normalizr support.",
       "factory": "./read-reducer-simple/index#readReducerSimple"
+    },
+    "read-reducer-boilerplate": {
+      "description": "A blank schematic.",
+      "factory": "./read-reducer-boilerplate/index#readReducerBoilerplate"
     }
   }
 }
